@@ -1,0 +1,20 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Blah",
+    "description": "",
+    "version": "1.0"
+  },
+  "produces": ["application/json"],
+  "paths": {
+    "/customers": {
+      "get": {
+        "x-swagger-router-controller": "index",
+        "operationId": "index",
+        "tags": ["/customers"],
+        "description": "get all the customers",
+        "responses": {}
+      }
+    }
+  }
+}
